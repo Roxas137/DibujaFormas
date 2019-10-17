@@ -6,7 +6,7 @@ public abstract class FormaComponent {
 	 * 
 	 */
 	public void dibuja() {
-		
+		throw new UnsupportedOperationException();
 	}
 	
 	/** Cambia la posicion del objeto.
@@ -15,7 +15,7 @@ public abstract class FormaComponent {
 	 * @param y Desplazamiento en el eje Y.
 	 */
 	public void desplazaRelativo(int x, int y) {
-		
+		throw new UnsupportedOperationException();
 	}
 	
 	/**
@@ -23,7 +23,7 @@ public abstract class FormaComponent {
 	 * @param fc FormaComponent que se pretende anyadir.
 	 */
 	public void anade(FormaComponent fc) {
-		
+		throw new UnsupportedOperationException();
 	}
 	
 	/** 
@@ -32,9 +32,8 @@ public abstract class FormaComponent {
 	 * @return true si se ha eliminado correctamente.
 	 * @return false si no se ha eliminado correctamente.
 	 */
-	public boolean elimina(FormaComponent fc) {
-		
-		return false;
+	public void elimina(FormaComponent fc) {
+		throw new UnsupportedOperationException();
 	}
 	
 }

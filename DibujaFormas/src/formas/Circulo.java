@@ -1,4 +1,4 @@
-package Formas;
+package formas;
 
 public class Circulo extends FormaComponent{
 

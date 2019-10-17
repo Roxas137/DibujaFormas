@@ -10,7 +10,7 @@ public class Circulo extends FormaComponent{
 	 * 
 	 * @param x1 posicion en x del centro.
 	 * @param y1 posicion en y del centro.
-	 * @param radio radio del circulo
+	 * @param radio radio del circulo.
 	 */
 	public Circulo(int x1, int y1, int radio) {
 		this.x1=x1;
